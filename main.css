@@ -3,23 +3,41 @@ body {
     background-color: #333333;
     color: #ffffff;
 }
-a {
+
+.project_list a {
+    width: 700px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto 5px auto;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+.project_list .first {
+    margin-top: 150px;
+}
+
+.tabs a {
     text-decoration: none;
     font-size: 24px;
     text-align: center;
     color: #fff;
     background-color: #111111;
-    padding: 2px 4px 2px 4px;
-    border-radius: 5px;
     margin-top: 10px;
     margin-right: 10px;
     box-shadow: 1px 2px 2px;
     width: 100px;
-    height: 25px;
+    height: 30px;
     position: fixed;
 }
 
 .home {
+    border-radius: 5px 0 0 5px;
     top: 5px;
     right: 210px;
 }
@@ -30,17 +48,27 @@ a {
 }
 
 .about {
+    border-radius: 0 5px 5px 0;
     top: 5px;
     right: 10px;
 }
-a:hover {
+
+.home:hover {
+    background-color: #000000;
+}
+
+.projects:hover {
+    background-color: #000000;
+}
+
+.about:hover {
     background-color: #000000;
 }
 
 h1 {
     font-size: 72px;
     background: #000;
-    width: 500px;
+    width: 400px;
     height: 100px;
     text-align: center;
     border-radius: 5px;
@@ -65,5 +93,4 @@ p {
     left: 50%;
     
 }
-
 
