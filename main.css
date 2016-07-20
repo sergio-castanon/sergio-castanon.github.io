@@ -54,11 +54,15 @@ p {
     font-size: 36px;
     width: 700px;
     text-align: center;
-    margin: auto auto auto auto;
+    margin-top: -84px;
+    margin-left: -350px;
     margin-bottom: 40px;
     background: #fff;
     color: #000;
     border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
     
 }
 
