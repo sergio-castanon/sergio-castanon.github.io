@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+#answer {
+    background-color: #999999;
+    height: 4em;
+    width: 33em;
+    margin: 5px;
+    border-radius: .5em;
+}
+button {
+    height: 4em;
+    width: 8em;
+    font-size: 1em;
+    outline: none;
+    background-color: #999999;
+    color: #dddddd;
+    border-radius: .5em;
+    display: inline-block;
+}
+#delete {
+    background-color: #ff2222;
+}
+#equal {
+    background-color: #22aa22;
+}
+#valueOne, #valueTwo {
+    height: 4em;
+    width: 19em;
+    border-radius: .5em;
+    
+}
