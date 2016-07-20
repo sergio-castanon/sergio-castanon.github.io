@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="project3.css">
+        <script type="text/javascript" src="myBar.js"></script>
+    </head>
+    <body>
+        <submit>
+            <input onkeydown="markProgress()" type="text" id="textBox" placeholder="type in here...">
+        </submit>
+        <div id="hackingProgress">
+            <div id="bar">
+                
+            </div>
+        </div>
+        <div id="messages">
+            
+        </div>
+        <script>
+        function markProgress() {
+            var text = document.getElementById('textBox');
+            var width = text.value.length;
+            var progress = document.getElementById('bar');
+            
+            
+                if (width == 99) {
+                    alert("I'm in.");
+                    width = 0;
+                    progress.style.width = width + "%";
+                    text.value = "";
+                    
+                    
+                        
+                        
+                }
+                else {
+                    width++;
+                    progress.style.width = width + '%';
+                }
+                
+        }
+        </script>
+    </body>
+</html>    
