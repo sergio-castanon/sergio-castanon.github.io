@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    background: linear-gradient(to bottom right, red, white);
+}
+
+button {
+    height: 4em;
+    width: 8em;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #555555;
+    border-radius: .5em;
+    border: none;
+}
+
+.move {
+    animation: rotation 1s;
+}
+
+.color {
+    background: linear-gradient(to bottom right, white, red);
+    
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button:hover {
+    background-color: #bbbbbb;
+}
