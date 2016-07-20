@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <link rel="stylesheet" href="project1.css">
+    </head>
+    <body>
+        <center>
+            <p id="count">
+            
+            </p>
+            <button id="one" type="button">CLICK ME!!!!</button>
+            <div id="container">
+                
+            </div>
+        </center>
+        <script>
+            var counter = 0;
+            var counts = document.getElementById('count');
+            var button = document.getElementById('one');
+            var text = document.getElementById('container');
+            button.addEventListener('click', function() {
+                counter++;
+                counts.innerHTML = "There are " + counter + " welcomes on this page.";
+                var newText = document.createElement('p');
+                newText.innerHTML = 'Welcome';
+                text.appendChild(newText);
+                
+                
+            });
+        </script>
+    </body>
+</html>

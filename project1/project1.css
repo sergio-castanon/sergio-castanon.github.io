@@ -1,0 +1,17 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 1em auto 1em auto;
+    background: #469084;
+}
+button {
+    background-color: #234545;
+    color: #ffffff;
+    border-radius: 2em;
+    height: 2em;
+    width: 8em;
+    
+}
+p {
+    font-weight: bold;
+    color: #dddddd;
+}
