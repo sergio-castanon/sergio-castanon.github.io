@@ -1,0 +1,15 @@
+#wheel1_design:hover, #wheel2_design:hover {
+    animation: rotation 4s;
+}
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: center center;
+    }
+    100% {
+        transform: rotate(-720deg);
+        transform-origin: center center;
+    }
+}
