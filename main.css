@@ -5,7 +5,8 @@ body {
 }
 a {
     text-decoration: none;
-    font-size: 72px;
+    font-size: 24px;
+    text-align: center;
     color: #fff;
     background-color: #111111;
     padding: 2px 4px 2px 4px;
@@ -13,19 +14,19 @@ a {
     margin-top: 10px;
     margin-right: 10px;
     box-shadow: 1px 2px 2px;
-    width: 300px;
-    height: 100px;
+    width: 100px;
+    height: 25px;
     position: fixed;
 }
 
 .home {
     top: 5px;
-    right: 610px;
+    right: 210px;
 }
 
 .projects {
     top: 5px;
-    right: 310px;
+    right: 110px;
 }
 
 .about {
@@ -44,6 +45,9 @@ h1 {
     text-align: center;
     border-radius: 5px;
     margin-top: 15px;
+    position: fixed;
+    top: 5px;
+    left: 10px;
 }
 
 p {
