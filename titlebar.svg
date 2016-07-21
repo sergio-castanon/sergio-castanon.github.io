@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200">
+  <title>titlebar</title>
+  <polygon points="0 0 0 153.69 154.25 0 0 0" style="fill: #3d1310"/>
+  <polygon points="1200 75.01 1075.29 199.27 1200 199.27 1200 75.01" style="fill: #3d1310"/>
+  <polygon points="875.93 0 675.93 199.27 1049.83 199.27 1200 49.65 1200 0 875.93 0" style="fill: #3d1310"/>
+  <polygon points="530.37 0 330.37 199.27 650.48 199.27 850.48 0 530.37 0" style="fill: #3d1310"/>
+  <polygon points="179.71 0 0 179.06 0 199.27 304.91 199.27 504.91 0 179.71 0" style="fill: #3d1310"/>
+  <rect x="547.17" y="59.71" width="104.17" height="103.79" style="fill: #ed1c24"/>
+  <rect x="651.34" y="65.84" width="69.45" height="69.19" style="fill: #791314"/>
+  <polygon points="756.45 23.2 756.45 23.2 752.24 19 678.58 92.39 752.24 165.78 825.9 92.39 825.9 92.39 756.45 92.39 756.45 23.2" style="fill: #cb2d27"/>
+  <polygon points="674.37 111.6 604.92 111.6 674.37 180.79 674.37 180.79 674.37 111.6" style="fill: #dbdbdb"/>
+  <polygon points="596.27 5.78 547.17 54.7 596.27 103.63 596.27 5.78 596.27 5.78" style="fill: #dbdbdb"/>
+  <rect x="752.24" y="23.2" width="69.45" height="69.19" style="fill: #f8991d"/>
+  <rect x="853.14" y="39.86" width="216" height="143.48" style="fill: #ed1c24"/>
+  <polygon points="784.9 92.39 892.9 200 892.9 92.39 784.9 92.39" style="fill: #dbdbdb"/>
+  <polygon points="997.21 158.71 1141.08 158.71 997.21 14.83 997.21 158.71" style="fill: #dbdbdb"/>
+  <polygon points="1105.59 11.7 1015.44 101.53 1108.31 101.53 1108.31 194.06 1109.81 195.56 1199.97 105.73 1105.59 11.7" style="fill: #f8991d"/>
+  <rect x="233.97" y="64.79" width="175" height="70.43" transform="translate(221.47 421.1) rotate(-90)" style="fill: #ed1c24"/>
+  <rect x="20.16" y="54.7" width="200" height="132.85" style="fill: #ed1c24"/>
+  <polygon points="334.31 81.16 442.31 189.16 442.31 81.16 334.31 81.16" style="fill: #dbdbdb"/>
+  <polygon points="5.21 74.46 74.66 74.46 74.66 5.27 5.21 74.46 5.21 74.46" style="fill: #dbdbdb"/>
+  <polygon points="358.54 121.13 287.83 191.58 217.12 121.13 287.83 50.67 358.54 121.13" style="fill: #f8991d"/>
+  <polygon points="132.09 82.93 205.37 155.95 205.37 80.73 280.87 80.73 282.09 79.52 208.8 6.5 132.09 82.93" style="fill: #cb2d27"/>
+  <rect x="376.72" y="7.64" width="200" height="100" style="fill: #791314"/>
+  <polygon points="154.25 0 0 153.69 0 179.06 179.71 0 154.25 0" style="fill: #fff"/>
+  <polygon points="504.91 0 304.91 199.27 330.37 199.27 530.37 0 504.91 0" style="fill: #fff"/>
+  <polygon points="850.48 0 650.48 199.27 675.93 199.27 875.93 0 850.48 0" style="fill: #fff"/>
+  <polygon points="1200 49.65 1049.83 199.27 1075.29 199.27 1200 75.01 1200 49.65" style="fill: #fff"/>
+</svg>

@@ -1,60 +1,58 @@
+.container {
+    border-radius: 5px;
+    max-width: 1200px;
+    height: 200px;
+    background-image: url(titlebar.svg);
+    margin: 5px auto 0 auto;
+}
+
 body {
     font-family: Helvetica, sans-serif;
-    background-color: #333333;
+    background-color: #dddddd;
     color: #ffffff;
+    min-width: 1200px;
 }
 
 .project_list a {
     width: 700px;
-    font-size: 24px;
-    font-weight: bold;
-    border: 2px solid #000000;
+    height: 75px;
+    font-size: 54px;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     text-decoration: none;
     display: block;
     margin: 0 auto 5px auto;
-    background: #ffffff;
-    color: #000000;
+    background: #000000;
+    color: #ffffff;
     text-align: center;
+    box-shadow: inset 8px 5px 1px #dedede;
 }
 
 .project_list .first {
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
-.tabs a {
+.container a {
+    float: right;
     text-decoration: none;
     font-size: 24px;
     text-align: center;
     color: #fff;
     background-color: #111111;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
     box-shadow: 1px 2px 2px;
     width: 100px;
     height: 30px;
-    position: fixed;
-}
-
-.home {
-    border-radius: 5px 0 0 5px;
-    top: 5px;
-    right: 210px;
 }
 
 .projects {
-    top: 5px;
-    right: 110px;
+    border-radius: 5px;
 }
+
 
 .about {
-    border-radius: 0 5px 5px 0;
-    top: 5px;
-    right: 10px;
-}
-
-.home:hover {
-    background-color: #000000;
+    border-radius: 5px;
 }
 
 .projects:hover {
@@ -65,17 +63,16 @@ body {
     background-color: #000000;
 }
 
-h1 {
+.container h1 a {
+    float: right;
     font-size: 72px;
     background: #000;
     width: 400px;
     height: 100px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 15px;
-    position: fixed;
-    top: 5px;
-    left: 10px;
+    margin: 5px 0 0 5px;
+    position: absolute;
 }
 
 p {
@@ -88,7 +85,7 @@ p {
     background: #fff;
     color: #000;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     
