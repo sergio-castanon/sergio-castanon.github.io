@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="todoList.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script src="todo.js"></script>
+    </head>
+    <body>
+        <h1>To Do List</h1>
+        
+        <section id="main">
+            <form onSubmit="newEntry()">
+                <input type="text" id="input" name="todo" placeholder="Type to add to your list...">
+            </form>
+        
+            <center>
+                <button onclick="clearAll()" id="controls" type="button">Clear All</button>
+                <button onclick="filterComplete()" class="complete" type="button">Completed</button>
+                <button onclick="filterAll()" type="button">Show All</button>
+                <button onclick="filterUncomplete()" type="button">Uncomplete</button>
+            </center>
+        
+            
+            <div id="todosContainer">
+            
+            </div>
+        </section> 
+    </body>
+</html>
