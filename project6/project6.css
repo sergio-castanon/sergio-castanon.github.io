@@ -5,11 +5,19 @@
 
 @keyframes rotation {
     0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
         transform: rotate(0deg);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
         transform-origin: center center;
     }
     100% {
+        -webkit-transform: rotate(-720deg);
+        -moz-transform: rotate(-720deg);
         transform: rotate(-720deg);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
         transform-origin: center center;
     }
 }
