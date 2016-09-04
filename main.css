@@ -18,7 +18,7 @@ body {
     height: 200px;
     min-height: 200px;
     background-image: url(titlebar.svg);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-size: cover;
     margin: 5px 0 0 0;
     overflow: hidden;
